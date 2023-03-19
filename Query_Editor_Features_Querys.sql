@@ -1,4 +1,4 @@
---  Name: Leonard Kiplagat  --
+--  Author: Leonard Kiplagat  --
 
 --  Query Editor Features  --
 
@@ -167,7 +167,7 @@ FROM	dept
 WHERE	deptid = 1;
 
 /*
-	g. Select all empid’s from Employee table where mgrid = 5
+	g. Select all empidâ€™s from Employee table where mgrid = 5
 */
 
 SELECT	empid,Mgrid 
@@ -175,7 +175,7 @@ FROM	Employee
 WHERE	Mgrid = 5;
 
 /*
-	h. Select all empid’s from Phone table where employee does not have a phone number
+	h. Select all empidâ€™s from Phone table where employee does not have a phone number
 */
 
 SELECT	empid, phnumber
