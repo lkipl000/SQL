@@ -72,40 +72,40 @@ CREATE TABLE [dbo].[Phone](
 GO
 
 INSERT INTO Employee (empid, empname, deptid, salary, mgrid)
-VALUES  (1, 'John Doe', '04', 50000, 2),
-		(2, 'Jane Smith', '01', 60000, 3),
-		(3, 'Bob Johnson', '05', 70000, 4),
-		(4, 'Mary Adams', '03', 80000, 5),
-		(5, 'David Lee', '02', 90000, 6),
-		(6, 'Emily Chen', '04', 55000, 2),
-		(7, 'Mark Davis', '01', 65000, 3),
-		(8, 'Rachel Kim', '05', 75000, 4),
-		(9, 'Tom Johnson', '03', 85000, 5),
-		(10, 'Samantha Lee', '02', 95000, 6);
+VALUES (1, 'John Doe', '04', 50000, 2),
+	(2, 'Jane Smith', '01', 60000, 3),
+	(3, 'Bob Johnson', '05', 70000, 4),
+	(4, 'Mary Adams', '03', 80000, 5),
+	(5, 'David Lee', '02', 90000, 6),
+	(6, 'Emily Chen', '04', 55000, 2),
+	(7, 'Mark Davis', '01', 65000, 3),
+	(8, 'Rachel Kim', '05', 75000, 4),
+	(9, 'Tom Johnson', '03', 85000, 5),
+	(10, 'Samantha Lee', '02', 95000, 6);
 
 INSERT INTO emp (empid, empname, deptid)
-VALUES  (1, 'John Doe', '04'),
-	    (2, 'Jane Smith', '01'),
-		(3, 'Bob Johnson', '05'),
-		(4, 'Mary Adams', '03'),
-		(5, 'David Lee', '02'),
-		(6, 'Emily Chen', '04'),
-		(7, 'Mark Davis', '01'),
-		(8, 'Rachel Kim', '05'),
-		(9, 'Tom Johnson', '03'),
-		(10, 'Samantha Lee', '02');
+VALUES	(1, 'John Doe', '04'),
+	(2, 'Jane Smith', '01'),
+	(3, 'Bob Johnson', '05'),
+	(4, 'Mary Adams', '03'),
+	(5, 'David Lee', '02'),
+	(6, 'Emily Chen', '04'),
+	(7, 'Mark Davis', '01'),
+	(8, 'Rachel Kim', '05'),
+	(9, 'Tom Johnson', '03'),
+	(10, 'Samantha Lee', '02');
 
 INSERT INTO dept (empid, deptname, deptid) 
 VALUES  (1, 'Marketing', '04'),
-	    (2, 'Sales', '01'),
-	    (3, 'Finance', '05'),
-	    (4, 'Human Resources', '03'),
-	    (5, 'Information Technology', '02'),
-	    (6, 'Marketing', '04'),
-	    (7, 'Sales', '01'),
-	    (8, 'Finance', '05'),
-	    (9, 'Human Resources', '03'),
-	    (10, 'Information Technology', '02');
+	(2, 'Sales', '01'),
+	(3, 'Finance', '05'),
+	(4, 'Human Resources', '03'),
+	(5, 'Information Technology', '02'),
+	(6, 'Marketing', '04'),
+	(7, 'Sales', '01'),
+	(8, 'Finance', '05'),
+	(9, 'Human Resources', '03'),
+	(10, 'Information Technology', '02');
 
 INSERT INTO Phone (empid, phnumber) 
 VALUES  (1, '123-456-7890'),
